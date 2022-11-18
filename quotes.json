@@ -1,0 +1,14 @@
+{
+    "Quotes" :[
+        {
+            "Id": 0,
+            "Text": "Quote1",
+            "Author": "Author1"
+        },
+        {
+            "Id": 1,
+            "Text": "Quote2",
+            "Author":"Author2"
+        }
+    ]
+}
