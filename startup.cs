@@ -11,7 +11,7 @@ namespace PPP.Quotes
         public override void Configure(IFunctionsHostBuilder builder)
         {
             builder.Services.AddHttpClient();
-            builder.Services.AddSingleton<IQuotesService, QuoteService>();
+            builder.Services.AddSingleton<IQuoteService, QuoteService>();
         }
     }
 }

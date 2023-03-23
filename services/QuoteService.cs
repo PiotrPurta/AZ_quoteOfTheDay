@@ -3,7 +3,7 @@ using PPP.Quotes.model;
 
 namespace PPP.Quotes.services
 {
-    public class QuoteService : IQuotesService
+    public class QuoteService : IQuoteService
     {
         private readonly Quote[] _quotes = StaticQuotes.Quotes;
 

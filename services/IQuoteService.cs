@@ -2,7 +2,7 @@ using PPP.Quotes.model;
 
 namespace PPP.Quotes.services
 {
-    public interface IQuotesService
+    public interface IQuoteService
     {
         Quote GetTodayQuote();
     }

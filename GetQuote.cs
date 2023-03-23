@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
@@ -11,9 +8,9 @@ namespace PPP.Quotes
 {
     public class GetQuote
     {
-        private readonly IQuotesService _quoteService;
+        private readonly IQuoteService _quoteService;
 
-        public GetQuote(IQuotesService quoteService)
+        public GetQuote(IQuoteService quoteService)
         {
             _quoteService = quoteService;
         }
