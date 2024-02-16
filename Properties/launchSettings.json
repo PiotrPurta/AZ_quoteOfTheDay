@@ -2,7 +2,7 @@
   "profiles": {
     "QuoteFunction": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7184",
+      "commandLineArgs": "--port 7028",
       "launchBrowser": false
     }
   }
